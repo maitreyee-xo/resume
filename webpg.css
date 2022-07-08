@@ -40,6 +40,14 @@ body
 
 .navbar-custom {
     background-color: #056676;
+    height: 15%;
+}
+.hi-top
+{
+    display: inline-block;
+    position: relative;
+    right: 43%;
+
 }
 .topcontainer
 {
@@ -60,14 +68,15 @@ body
 }
 .languages {
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 0px 0px; 
+    grid-template-columns: 0.4% 0.4% 0.4%; 
+    grid-template-rows: 0.4% 0.4% 0.4%; 
+    gap: -5px -5px; 
     grid-template-areas: 
       ". . ."
       ". . ."
       ". . ."; 
-
+    
+      
   }
 
 .grid-item
@@ -78,11 +87,58 @@ body
         margin-left: 35%;
         margin-bottom: 20%;
         margin-top: 20%;
+        box-sizing: border-box;
+}
+.java
+{
+    position: relative;
+    display: inline-block;
+    left: 4000%;
+}
+.python
+{
+    position: relative;
+    display: inline-block;
+    left: 10000%;
+}
+.cpp
+{
+    position: relative;
+    display: inline-block;
+    left: 16000%;
+}
+.js
+{
+    position: relative;
+    display: inline-block;
+    left: 4000%;
+    top: 18000%;
+    
+}
+.html
+{
+    position: relative;
+    display: inline-block;
+    left: 10000%;
+    top: 16500%;
+   
+}
+.css
+{
+    position: relative;
+    display: inline-block;
+    left: 16000%;
+    top: 17000%;
+
+}
+.problem
+{
+    margin-bottom: 10%;
 }
 .courses
 {
     margin-bottom: 10%;
-    margin-top: 2%;
+    margin-top: 12%;
 }
 .bottomcontainer
 {
